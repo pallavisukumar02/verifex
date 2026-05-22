@@ -1,0 +1,38 @@
+[
+  {
+    "feature": "V14",
+    "shap_value": 4.6633,
+    "type": "risk",
+    "label": "High V14 contribution"
+  },
+  {
+    "feature": "V10",
+    "shap_value": 1.6901,
+    "type": "risk",
+    "label": "High V10 contribution"
+  },
+  {
+    "feature": "Hour",
+    "shap_value": -1.5962,
+    "type": "safe",
+    "label": "Normal transaction hour"
+  },
+  {
+    "feature": "V4",
+    "shap_value": 1.1951,
+    "type": "risk",
+    "label": "Risk signal detected"
+  },
+  {
+    "feature": "Amount",
+    "shap_value": -0.8827,
+    "type": "safe",
+    "label": "Low Amount contribution"
+  },
+  {
+    "feature": "V12",
+    "shap_value": 0.7763,
+    "type": "risk",
+    "label": "High V12 contribution"
+  }
+]
