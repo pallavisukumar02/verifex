@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #eff6ff;
+  color: #0f172a;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: white;
+  font-size: 14px;
+  color: #0f172a;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  color: #334155;
+}
+
+textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  resize: vertical;
+}
+
+.app-shell {
+  padding: 28px;
+}
+
+.app-header {
+  margin-bottom: 28px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: #2563eb;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 2.5vw, 3rem);
+  line-height: 1.05;
+}
+
+.subtitle {
+  margin: 12px 0 0;
+  max-width: 720px;
+  color: #475569;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.grid-two-column {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1.4fr 1fr;
+}
+
+.card {
+  padding: 24px;
+  background: white;
+  border-radius: 24px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.08);
+}
+
+.form-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.result-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #64748b;
+  letter-spacing: 0.12em;
+  margin-bottom: 6px;
+}
+
+.section-title {
+  margin: 0 0 18px;
+  font-size: 1.15rem;
+}
+
+.result-card {
+  margin-top: 22px;
+  padding: 18px;
+  background: #f8fafc;
+  border-radius: 18px;
+  border: 1px solid #e2e8f0;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.badge-legend {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.badge-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: #f8fafc;
+  color: #334155;
+}
+
+.badge-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.badge-legit {
+  background: #d1fae5;
+  color: #166534;
+}
+
+.badge-review {
+  background: #fef3c7;
+  color: #78350f;
+}
+
+.badge-fraud {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.transaction-list {
+  display: grid;
+  gap: 12px;
+}
+
+.transaction-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  background: white;
+}
+
+.transaction-item p {
+  margin: 0;
+  color: #334155;
+  font-size: 14px;
+}
+
+.transaction-item time {
+  color: #64748b;
+  font-size: 13px;
+}
