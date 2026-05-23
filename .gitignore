@@ -1,0 +1,40 @@
+.venv/
+__pycache__/
+*.pyc
+*.csv
+data/
+*.pkl
+*.pt
+.venv/
+frontend/node_modules/
+frontend/dist/
+*.csv
+data/
+*.parquet
+data/
+models/
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# ML models
+models/
+*.h5
+*.pt
+*.pth
+*.pkl
+
+# Dataset
+*.csv
+
+# Node
+node_modules/
+dist/
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db

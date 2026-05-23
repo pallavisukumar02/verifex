@@ -1,0 +1,8 @@
+fastapi==0.111.1
+uvicorn==0.30.1
+torch==2.12.0
+numpy==2.4.6
+pandas==3.0.3
+scikit-learn==1.8.0
+pyarrow==17.0.0
+python-multipart==0.0.9
