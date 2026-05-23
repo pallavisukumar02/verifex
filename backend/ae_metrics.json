@@ -1,0 +1,1 @@
+{"roc_auc": 0.9491, "f1_score": 0.39, "threshold": 8.601871, "total_samples": 284807, "model": "Autoencoder"}

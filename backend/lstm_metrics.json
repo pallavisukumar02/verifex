@@ -1,0 +1,1 @@
+{"roc_auc": 0.9598, "f1_score": 0.7534, "total_samples": 284807, "fraud_rate": 0.173, "model": "LSTM"}
